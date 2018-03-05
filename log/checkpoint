@@ -1,0 +1,5 @@
+model_checkpoint_path: "convex_hull.ckpt-12000"
+all_model_checkpoint_paths: "convex_hull.ckpt-11700"
+all_model_checkpoint_paths: "convex_hull.ckpt-11800"
+all_model_checkpoint_paths: "convex_hull.ckpt-11900"
+all_model_checkpoint_paths: "convex_hull.ckpt-12000"

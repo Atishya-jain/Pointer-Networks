@@ -1,0 +1,251 @@
+2018-02-17 19:27:02.194239: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+Load model parameters from ./log/convex_hull.ckpt-200
+Load inputs:            (10000, 5, 2)
+Load enc_input_weights: (10000, 5)
+Load outputs:           (10000, 8)
+Load dec_input_weights: (10000, 7)
+global step 400 step-time 0.10 loss 6.89
+====================
+Predict: [1 4 5 5 1 1 0]
+Target : [1 2 5 3 4 1 0]
+====================
+global step 600 step-time 0.10 loss 6.83
+====================
+Predict: [1 5 5 3 1 1 0]
+Target : [1 2 3 5 4 1 0]
+====================
+global step 800 step-time 0.10 loss 6.48
+====================
+Predict: [1 3 2 5 1 1 0]
+Target : [1 3 5 2 4 1 0]
+====================
+global step 1000 step-time 0.10 loss 5.39
+====================
+Predict: [1 4 3 3 1 1 0]
+Target : [1 4 2 3 5 1 0]
+====================
+global step 1200 step-time 0.10 loss 3.91
+====================
+Predict: [1 4 5 5 2 1 0]
+Target : [1 4 3 5 2 1 0]
+====================
+global step 1400 step-time 0.10 loss 3.29
+====================
+Predict: [1 2 5 4 3 1 0]
+Target : [1 2 5 4 3 1 0]
+====================
+global step 1600 step-time 0.10 loss 2.95
+====================
+Predict: [1 4 5 2 1 1 0]
+Target : [1 4 5 2 3 1 0]
+====================
+global step 1800 step-time 0.10 loss 2.77
+====================
+Predict: [1 5 2 4 3 1 0]
+Target : [1 5 2 4 3 1 0]
+====================
+global step 2000 step-time 0.10 loss 2.66
+====================
+Predict: [1 3 2 4 1 0 0]
+Target : [1 3 2 4 1 0 0]
+====================
+global step 2200 step-time 0.11 loss 2.54
+====================
+Predict: [1 2 3 3 4 1 0]
+Target : [1 2 5 3 4 1 0]
+====================
+global step 2400 step-time 0.10 loss 2.48
+====================
+Predict: [1 3 2 4 4 1 0]
+Target : [1 3 2 5 4 1 0]
+====================
+global step 2600 step-time 0.11 loss 2.41
+====================
+Predict: [1 4 2 3 5 0 0]
+Target : [1 4 2 3 1 0 0]
+====================
+global step 2800 step-time 0.11 loss 2.36
+====================
+Predict: [1 3 5 5 4 1 0]
+Target : [1 3 2 5 4 1 0]
+====================
+global step 3000 step-time 0.11 loss 2.31
+====================
+Predict: [1 5 4 2 3 1 0]
+Target : [1 5 4 2 3 1 0]
+====================
+global step 3200 step-time 0.11 loss 2.25
+====================
+Predict: [1 4 5 2 0 0 0]
+Target : [1 4 5 2 1 0 0]
+====================
+global step 3400 step-time 0.10 loss 2.20
+====================
+Predict: [1 5 4 3 2 1 0]
+Target : [1 5 4 3 2 1 0]
+====================
+global step 3600 step-time 0.11 loss 2.18
+====================
+Predict: [1 3 4 2 2 1 0]
+Target : [1 3 5 4 2 1 0]
+====================
+global step 3800 step-time 0.11 loss 2.13
+====================
+Predict: [1 5 2 5 1 0 0]
+Target : [1 5 2 3 1 0 0]
+====================
+global step 4000 step-time 0.10 loss 2.10
+====================
+Predict: [1 2 4 5 1 0 0]
+Target : [1 2 4 5 1 0 0]
+====================
+global step 4200 step-time 0.10 loss 2.07
+====================
+Predict: [1 5 5 2 1 0 0]
+Target : [1 4 2 5 1 0 0]
+====================
+global step 4400 step-time 0.10 loss 2.03
+====================
+Predict: [1 3 4 2 5 0 0]
+Target : [1 5 2 4 1 0 0]
+====================
+global step 4600 step-time 0.10 loss 2.00
+====================
+Predict: [1 5 4 4 3 1 0]
+Target : [1 2 5 4 3 1 0]
+====================
+global step 4800 step-time 0.10 loss 1.95
+====================
+Predict: [1 2 4 3 5 0 0]
+Target : [1 2 4 3 1 0 0]
+====================
+global step 5000 step-time 0.10 loss 1.94
+====================
+Predict: [1 2 5 4 1 0 0]
+Target : [1 2 5 4 1 0 0]
+====================
+global step 5200 step-time 0.10 loss 1.89
+====================
+Predict: [1 4 3 5 2 1 0]
+Target : [1 4 3 5 2 1 0]
+====================
+global step 5400 step-time 0.10 loss 1.88
+====================
+Predict: [1 4 4 5 3 1 0]
+Target : [1 4 2 5 3 1 0]
+====================
+global step 5600 step-time 0.10 loss 1.86
+====================
+Predict: [1 3 4 5 2 1 0]
+Target : [1 3 4 5 2 1 0]
+====================
+global step 5800 step-time 0.11 loss 1.82
+====================
+Predict: [1 2 3 4 5 1 0]
+Target : [1 2 3 4 5 1 0]
+====================
+global step 6000 step-time 0.10 loss 1.78
+====================
+Predict: [1 2 2 4 3 1 0]
+Target : [1 5 2 4 3 1 0]
+====================
+global step 6200 step-time 0.10 loss 1.76
+====================
+Predict: [1 5 2 1 0 0 0]
+Target : [1 4 2 1 0 0 0]
+====================
+global step 6400 step-time 0.10 loss 1.73
+====================
+Predict: [1 4 2 5 3 1 0]
+Target : [1 4 2 5 3 1 0]
+====================
+global step 6600 step-time 0.10 loss 1.68
+====================
+Predict: [1 3 3 2 4 1 0]
+Target : [1 5 3 2 4 1 0]
+====================
+global step 6800 step-time 0.11 loss 1.66
+====================
+Predict: [1 3 4 4 2 1 0]
+Target : [1 3 5 4 2 1 0]
+====================
+global step 7000 step-time 0.11 loss 1.63
+====================
+Predict: [1 3 2 4 1 0 0]
+Target : [1 5 2 4 1 0 0]
+====================
+global step 7200 step-time 0.10 loss 1.59
+====================
+Predict: [1 2 3 5 4 1 0]
+Target : [1 2 3 5 4 1 0]
+====================
+global step 7400 step-time 0.10 loss 1.58
+====================
+Predict: [1 4 2 5 1 0 0]
+Target : [1 4 2 5 1 0 0]
+====================
+global step 7600 step-time 0.10 loss 1.54
+====================
+Predict: [1 2 4 3 5 1 0]
+Target : [1 2 4 3 5 1 0]
+====================
+global step 7800 step-time 0.10 loss 1.52
+====================
+Predict: [1 2 3 4 1 0 0]
+Target : [1 2 3 4 1 0 0]
+====================
+global step 8000 step-time 0.10 loss 1.50
+====================
+Predict: [1 2 2 5 4 1 0]
+Target : [1 3 2 5 4 1 0]
+====================
+global step 8200 step-time 0.10 loss 1.47
+====================
+Predict: [1 4 4 3 2 0 0]
+Target : [2 5 4 3 2 0 0]
+====================
+global step 8400 step-time 0.10 loss 1.44
+====================
+Predict: [1 3 4 5 2 1 0]
+Target : [1 3 4 5 2 1 0]
+====================
+global step 8600 step-time 0.10 loss 1.41
+====================
+Predict: [1 3 3 2 4 1 0]
+Target : [1 5 3 2 4 1 0]
+====================
+global step 8800 step-time 0.10 loss 1.37
+====================
+Predict: [1 5 3 4 1 0 0]
+Target : [1 2 3 4 1 0 0]
+====================
+global step 9000 step-time 0.10 loss 1.35
+====================
+Predict: [1 4 3 2 1 0 0]
+Target : [1 4 3 2 1 0 0]
+====================
+global step 9200 step-time 0.11 loss 1.32
+====================
+Predict: [2 4 5 3 2 1 0]
+Target : [1 4 5 3 2 1 0]
+====================
+global step 9400 step-time 0.11 loss 1.28
+====================
+Predict: [1 3 4 2 1 1 0]
+Target : [1 3 4 2 5 1 0]
+====================
+global step 9600 step-time 0.12 loss 1.29
+====================
+Predict: [1 4 2 1 0 0 0]
+Target : [1 4 5 1 0 0 0]
+====================
+global step 9800 step-time 0.11 loss 1.23
+====================
+Predict: [1 3 4 2 1 0 0]
+Target : [1 3 4 2 1 0 0]
+====================
+global step 10000 step-time 0.12 loss 1.22
+====================
+Predict: [1 2 3 5 1 0 0]
+Target : [1 2 3 5 1 0 0]
+====================
